@@ -1,0 +1,35 @@
+h1 {
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 80px;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+}
+.hidden {
+  display: none;
+}
+.flip {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+.trolly {
+  background-color: black;
+  background-image: url('../img/troll_for_life.jpg');
+  background-size: cover;
+}
+.clown {
+  background-image: url('../img/clown.jpg');
+  background-size: cover;
+}
+#square {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  background-image: url('../img/skull.gif');
+  background-size: cover;
+  position: absolute;
+}
