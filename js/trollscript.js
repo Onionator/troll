@@ -108,5 +108,8 @@ function printTroll() {
       $('body').append('<div class="flip" id="square"></div>')
       $('h1').addClass('hidden');
       runAcrossScreen();
+    } else if (event.keyCode === 32) {
+      document.body.style.background = 'url(\'https://i1.wp.com/bloody-disgusting.com/wp-content/uploads/2018/12/killer-klowns-makeup.png?w=1272&ssl=1\')';
+      document.body.style.backgroundSize = 'cover';
     }
   }
